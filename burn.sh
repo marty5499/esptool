@@ -1,0 +1,1 @@
+sudo python esptool2.py --port /dev/cu.usbserial-A965TZNN write_flash --flash_freq 80m --flash_mode dio --flash_size 32m --verify --flash_baud=3000000 0x00000 test.bin
